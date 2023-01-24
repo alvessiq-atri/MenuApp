@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./routes/homepage";
 import NavBar from "./components/navbar";
 import AddPlate from "./routes/add-plate";
+import EditMenu from "./routes/edit-menu";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/:plateId",
-    // element: <ParentEditMenu />,
+    element: <EditMenu />,
   },
 ]);
 
