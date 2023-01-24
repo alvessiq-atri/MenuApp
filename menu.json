@@ -1,0 +1,175 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Rio",
+      "vovofav": "yes",
+      "ingredients": [
+        "egg",
+        "beef",
+        "rice",
+        "beans",
+        "spring mix"
+      ],
+      "img": "To be added"
+    },
+    {
+      "id": 2,
+      "name": "Floripa",
+      "vovofav": "no",
+      "ingredients": [
+        "chicken breast",
+        "pasta",
+        "broccoli"
+      ],
+      "img": "To be added"
+    },
+    {
+      "id": 3,
+      "name": "Manaus",
+      "vovofav": "yes",
+      "ingredients": [
+        "pork",
+        "rice",
+        "french fries",
+        "carrots",
+        "spring mix"
+      ],
+      "img": "To be added"
+    },
+    {
+      "id": 4,
+      "name": "Pipa",
+      "img": "To be added",
+      "vovofav": "no",
+      "ingredients": [
+        "chicken breast",
+        "pork",
+        "pasta",
+        "spring mix"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Natal",
+      "vovofav": "yes",
+      "ingredients": [
+        "egg",
+        "beef",
+        "rice",
+        "spring mix"
+      ],
+      "img": "To be added"
+    },
+    {
+      "id": 6,
+      "name": "Recife",
+      "vovofav": "no",
+      "ingredients": [
+        "sausage",
+        "pasta",
+        "carrots"
+      ],
+      "img": "To be added"
+    },
+    {
+      "id": 7,
+      "name": "Buzios",
+      "vovofav": "yes",
+      "ingredients": [
+        "egg",
+        "beef",
+        "rice",
+        "beans",
+        "spring mix"
+      ],
+      "img": "To be added"
+    },
+    {
+      "name": "Jundiai",
+      "vovofav": "no",
+      "ingredients": [
+        "salmon",
+        "french fries",
+        "broccoli",
+        "carrots"
+      ],
+      "img": "To be added",
+      "id": 8
+    }
+  ],
+  "protein": [
+    {
+      "id": 1,
+      "name": "chicken breast"
+    },
+    {
+      "id": 2,
+      "name": "egg"
+    },
+    {
+      "id": 3,
+      "name": "salmon"
+    },
+    {
+      "id": 4,
+      "name": "pork"
+    },
+    {
+      "id": 5,
+      "name": "ground beef"
+    },
+    {
+      "id": 6,
+      "name": "sausage"
+    },
+    {
+      "id": 7,
+      "name": "beef"
+    }
+  ],
+  "sides": [
+    {
+      "id": 1,
+      "name": "rice"
+    },
+    {
+      "id": 2,
+      "name": "beans"
+    },
+    {
+      "id": 3,
+      "name": "mashed potato"
+    },
+    {
+      "id": 4,
+      "name": "pasta"
+    },
+    {
+      "id": 5,
+      "name": "french fries"
+    }
+  ],
+  "greens-veggies": [
+    {
+      "id": 1,
+      "name": "spring mix"
+    },
+    {
+      "id": 2,
+      "name": "corn"
+    },
+    {
+      "id": 3,
+      "name": "carrots"
+    },
+    {
+      "id": 4,
+      "name": "broccoli"
+    },
+    {
+      "id": 5,
+      "name": "green pepper"
+    }
+  ]
+}
