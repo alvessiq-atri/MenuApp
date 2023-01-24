@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./routes/homepage";
 import NavBar from "./components/navbar";
+import AddPlate from "./routes/add-plate";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/add-plate",
-    // element: <AddPlate />,
+    element: <AddPlate />,
   },
   {
     path: "/:plateId",
