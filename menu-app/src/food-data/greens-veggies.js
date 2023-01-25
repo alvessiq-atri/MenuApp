@@ -1,9 +1,2 @@
-const veggies = [
-  "spring mix",
-  "corn",
-  "carrots",
-  "broccoli",
-  "green pepper",
-  "no veggies",
-];
+const veggies = ["spring mix", "corn", "carrots", "broccoli", "green pepper"];
 export default veggies;

@@ -13,7 +13,7 @@ function MenuData({ columns, data }) {
     });
 
   return (
-    <Table style={{ backgroundColor: "#f1f1f1" }} striped {...getTableProps()}>
+    <Table striped {...getTableProps()}>
       <thead>
         {headerGroups.map((headerGroup) => (
           <tr {...headerGroup.getHeaderGroupProps()}>
@@ -45,7 +45,7 @@ function Menu() {
   //   const [menuTest, setMenuTest] = useState("");
 
   //   const fetchData = () => {
-  //     axios.get("http://localhost:8000/menu").then((response) => {
+  //     axios.get("http://localhost:3010/menu").then((response) => {
   //       console.log(response.data);
   //       setMenuTest(response.data);
   //     });
@@ -102,7 +102,7 @@ function Menu() {
   // Using useEffect to call the API once mounted and set the data
   useEffect(() => {
     (async () => {
-      const result = await axios("http://localhost:8000/menu");
+      const result = await axios("http://localhost:3010/menu");
       setData(result.data);
     })();
   }, []);

@@ -1,6 +1,6 @@
 describe("template spec", () => {
   const columns = ["ID", "Name", "Vovos Fav", "Ingredients", "Button"];
-  it("passes", () => {
+  it("Shows Homepage", () => {
     cy.visit("http://localhost:3000/");
     cy.contains("MENU");
     columns.map((item) => {

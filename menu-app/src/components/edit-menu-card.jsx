@@ -1,16 +1,27 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import { Button, Form, CardGroup, Label } from "reactstrap";
+import {
+  ButtonGroup,
+  Button,
+  Form,
+  CardGroup,
+  Label,
+  Row,
+  Col,
+} from "reactstrap";
 import sides from "../food-data/sides.js";
 import protein from "../food-data/protein.js";
 import veggies from "../food-data/greens-veggies";
 import axios from "axios";
 import FoodCard from "./food-card.jsx";
+import AlertModal from "./alert-modal.jsx";
 
 export default function EditMenuCard({ data }) {
   const [plate, setPlate] = useState({});
   const navigate = useNavigate();
+  const [modal, setModal] = useState(false);
+  const toggle = () => setModal(!modal);
 
   useEffect(() => {
     setPlate(data);
@@ -28,7 +39,7 @@ export default function EditMenuCard({ data }) {
     console.log("inside the ondeleteClick");
     (async () => {
       const result = await axios.delete(
-        "http://localhost:8000/menu/" + plate.id,
+        "http://localhost:3010/menu/" + plate.id,
         data
       );
       console.log(result);
@@ -37,14 +48,20 @@ export default function EditMenuCard({ data }) {
   };
 
   const onSubmit = (data) => {
-    console.log(data);
-    // (async () => {
-    //   const result = await axios.put(
-    //     "http://localhost:8000/menu/" + plate.id,
-    //     data
-    //   );
-    //   console.log(result);
-    // })();
+    if (data.ingredients.length === 0) {
+      console.log(data);
+      setModal(true);
+    } else {
+      console.log(data);
+      (async () => {
+        const result = await axios.put(
+          "http://localhost:3010/menu/" + plate.id,
+          data
+        );
+        console.log(result);
+      })();
+      navigate("/");
+    }
   };
 
   return (
@@ -52,33 +69,73 @@ export default function EditMenuCard({ data }) {
       {/* This is plate with id: {plate.id}.<h1> {plate.name}</h1>
       <h2>Ingredients are: {plate.ingredients + ""}</h2>
       <h2>Vovo's fav: {plate.vovofav}</h2> */}
+      <AlertModal toggle={toggle} modal={modal} />
+      <Button color="warning" onClick={onDeleteClick}>
+        Delete Plate
+      </Button>
       <Form onSubmit={handleSubmit(onSubmit)}>
-        <Label>
-          Name:
-          <input id="namePlate" name={plate.name} {...register("name")}></input>
-        </Label>
-        <br></br>
-        <Label>Vovó's Fav:</Label>
-        <Label>
-          Yes
-          <input
-            id="vovofav"
-            value="yes"
-            name={"yes"}
-            {...register("vovofav")}
-            type="radio"
-          />
-        </Label>
-        <Label>
-          No
-          <input
-            id="vovofav"
-            value="no"
-            name={"no"}
-            {...register("vovofav")}
-            type="radio"
-          />
-        </Label>
+        <Col
+          className="d-flex justify-content-center"
+          md={{
+            offset: 2,
+            size: 8,
+          }}
+          sm="12"
+        >
+          <Label size="lg">
+            Name:
+            <input
+              required
+              id="namePlate"
+              name={plate.name}
+              {...register("name")}
+            ></input>
+          </Label>
+          {/* <br></br> */}
+        </Col>
+        <Col className="d-flex justify-content-center">
+          {/* <ButtonGroup>
+            <Button
+              color="primary"
+              outline
+              onClick={() => console.log("1")}
+              // active={rSelected === 1}
+            >
+              Radio 1
+            </Button>
+            <Button
+              color="primary"
+              outline
+              onClick={() => console.log("2")}
+              // active={rSelected === 2}
+            >
+              Radio 2
+            </Button>
+          </ButtonGroup> */}
+          <Label style={{ fontWeight: "bold" }} size="lg">
+            Vovó's Fav:
+          </Label>
+          <Label size="lg">
+            Yes
+            <input
+              id="vovofav"
+              value="yes"
+              name={"yes"}
+              {...register("vovofav")}
+              type="radio"
+            />
+          </Label>
+          <Label size="lg">
+            No
+            <input
+              id="vovofav"
+              value="no"
+              name={"no"}
+              {...register("vovofav")}
+              type="radio"
+            />
+          </Label>
+        </Col>
         {/* <input
           id="vovofav"
           name={plate.vovofav}
@@ -101,14 +158,13 @@ export default function EditMenuCard({ data }) {
             data={veggies}
           ></FoodCard>
         </CardGroup>
-        <Button type="submit" color="warning">
-          Submit
-        </Button>
+        <Col className="d-flex justify-content-center">
+          <Button type="submit" color="warning">
+            Submit
+          </Button>
+        </Col>
       </Form>
       <br></br>
-      <Button color="warning" onClick={onDeleteClick}>
-        Delete Plate
-      </Button>
     </div>
   );
 }

@@ -1,9 +1,2 @@
-const sides = [
-  "rice",
-  "beans",
-  "mashed potato",
-  "pasta",
-  "french fries",
-  "no sides",
-];
+const sides = ["rice", "beans", "mashed potato", "pasta", "french fries"];
 export default sides;

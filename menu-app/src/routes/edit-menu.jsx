@@ -9,7 +9,7 @@ export default function EditMenu() {
 
   useEffect(() => {
     (async () => {
-      const result = await axios.get("http://localhost:8000/menu/" + plateId);
+      const result = await axios.get("http://localhost:3010/menu/" + plateId);
       //   console.log(result.data);
       setData(result.data);
     })();

@@ -15,7 +15,7 @@ export default function AddPlate() {
   const onSubmit = (data) => {
     console.log(data);
     (async () => {
-      const result = await axios.post("http://localhost:8000/menu/", data);
+      const result = await axios.post("http://localhost:3010/menu/", data);
       console.log(result);
     })();
 

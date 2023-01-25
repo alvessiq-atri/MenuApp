@@ -96,6 +96,16 @@
       ],
       "img": "To be added",
       "id": 8
+    },
+    {
+      "name": "Recife",
+      "vovofav": "no",
+      "ingredients": [
+        "salmon",
+        "pasta",
+        "broccoli"
+      ],
+      "id": 10
     }
   ],
   "protein": [
