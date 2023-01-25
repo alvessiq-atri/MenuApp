@@ -9,7 +9,7 @@ it("Navigates to Add Plate", () => {
 
 describe("Navigate to Edit Manaus", () => {
   it("Clicks on Edit Manaus", () => {
-    cy.intercept("/menu", { fixture: "menu.json" });
+    cy.intercept("/menu/*", { fixture: "menu.json" });
     cy.findByRole("link", { name: "Edit Manaus" }).click();
     cy.url().should("include", "/3");
   });

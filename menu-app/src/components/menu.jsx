@@ -42,21 +42,6 @@ function MenuData({ columns, data }) {
 }
 
 function Menu() {
-  //   const [menuTest, setMenuTest] = useState("");
-
-  //   const fetchData = () => {
-  //     axios.get("http://localhost:3010/menu").then((response) => {
-  //       console.log(response.data);
-  //       setMenuTest(response.data);
-  //     });
-  //   };
-
-  //   useEffect(() => {
-  //     (async () => {
-  //       fetchData();
-  //     })();
-  //   }, []);
-
   const columns = [
     {
       Header: "MENU",
