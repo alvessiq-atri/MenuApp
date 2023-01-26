@@ -1,11 +1,11 @@
 import React from "react";
-import { Navbar, NavbarBrand, CardImg, Button, NavbarText } from "reactstrap";
+import { Navbar, NavbarBrand, Button, NavbarText } from "reactstrap";
 import vovoheader from "../imgs/vovokitchen.png";
 
 function NavBar(args) {
   return (
     <div>
-      <Navbar className="navbar fixed-top bg-light">
+      <Navbar className="navbar bg-light">
         <NavbarBrand href="/">Vovó's Kitchen</NavbarBrand>
         <NavbarText>
           <Button href="/add-plate" color="warning">
@@ -13,14 +13,7 @@ function NavBar(args) {
           </Button>
         </NavbarText>
       </Navbar>
-      <CardImg
-        alt="Vovo image"
-        src={vovoheader}
-        //   style={{ height: 500 }}
-        top
-        width="100%"
-      ></CardImg>
-      {/* <Header /> */}
+      <img src={vovoheader} className="img-fluid shadow-4" alt="Homepage" />
     </div>
   );
 }

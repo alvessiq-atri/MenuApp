@@ -1,36 +1,23 @@
 import React from "react";
-import {
-  FormGroup,
-  Label,
-  CardTitle,
-  CardBody,
-  Card,
-  CardText,
-} from "reactstrap";
+import { MDBRow, MDBCol } from "mdb-react-ui-kit";
 
 export default function FoodCard({ register, data, title }) {
   // console.log(data);
   return (
-    <Card>
-      {/* <CardImg
-              alt="Card image cap"
-              src="https://picsum.photos/318/180"
-              top
-              width="100%"
-            /> */}
-      <CardBody>
-        <CardTitle tag="h5" className="d-flex justify-content-center">
-          {title}
-        </CardTitle>
-        <CardText>
-          {data.map((c) => (
-            <FormGroup className="d-flex justify-content-center">
+    // <MDBContainer className="border border-warning">
+    <MDBCol className="border border-warning" size="6" sm="4">
+      <p className="text-center fs-2">{title}</p>
+
+      {data.map((c) => (
+        <MDBRow key={c}>
+          <div className="item">
+            <label key={c}>
               <input type="checkbox" value={c} name={c} {...register} />
-              <Label key={c}>{c}</Label>
-            </FormGroup>
-          ))}
-        </CardText>
-      </CardBody>
-    </Card>
+              {c}
+            </label>
+          </div>
+        </MDBRow>
+      ))}
+    </MDBCol>
   );
 }

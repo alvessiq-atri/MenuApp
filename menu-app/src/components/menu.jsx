@@ -1,47 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { useTable } from "react-table";
-import { Button, Table, Col, Row } from "reactstrap";
+import React, { useState, useMemo, useEffect } from "react";
+import { Button, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import axios from "axios";
-
-function MenuData({ columns, data }) {
-  // Use the state and functions returned from useTable to build your UI
-  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
-    useTable({
-      columns,
-      data,
-    });
-
-  return (
-    <Table striped {...getTableProps()}>
-      <thead>
-        {headerGroups.map((headerGroup) => (
-          <tr {...headerGroup.getHeaderGroupProps()}>
-            {headerGroup.headers.map((column) => (
-              <th scope="row" {...column.getHeaderProps()}>
-                {column.render("Header")}
-              </th>
-            ))}
-          </tr>
-        ))}
-      </thead>
-      <tbody {...getTableBodyProps()}>
-        {rows.map((row, i) => {
-          prepareRow(row);
-          return (
-            <tr {...row.getRowProps()}>
-              {row.cells.map((cell) => {
-                return <td {...cell.getCellProps()}>{cell.render("Cell")}</td>;
-              })}
-            </tr>
-          );
-        })}
-      </tbody>
-    </Table>
-  );
-}
+import TableData from "./table-data";
 
 function Menu() {
+  const style = { width: "200px", whiteSpace: "normal" };
   const columns = [
     {
       Header: "MENU",
@@ -60,15 +24,25 @@ function Menu() {
         },
         {
           Header: "Ingredients",
-          accessor: (row) => row.ingredients + " ",
+          accessor: "ingredients",
+          Cell: (props) => {
+            return props.row.values.ingredients.join(", ");
+          },
         },
         {
           Header: "Button",
-          accessor: (row) => (
-            <Button href={"/" + row.id} color="warning">
-              Edit {row.name}
-            </Button>
-          ),
+          accessor: "id",
+          Cell: (props) => {
+            return (
+              <Button
+                style={style}
+                href={"/" + props.row.values.id}
+                color="warning"
+              >
+                Edit {props.row.values.name}
+              </Button>
+            );
+          },
         },
         // {
         //   Header: "Image",
@@ -81,30 +55,36 @@ function Menu() {
     },
   ];
 
-  //   const data = useMemo(() => menuTest, [menuTest]);
   const [data, setData] = useState([]);
+  useMemo(
+    () =>
+      (async () => {
+        const result = await axios("/menu");
+        setData(result.data);
+      })(),
+    []
+  );
 
   // Using useEffect to call the API once mounted and set the data
-  useEffect(() => {
-    (async () => {
-      const result = await axios("http://localhost:3010/menu");
-      setData(result.data);
-    })();
-  }, []);
+  // useEffect(() => {
+  //   (async () => {
+  //     const result = await axios("/menu");
+  //     setData(result.data);
+  //   })();
+  // }, []);
 
   return (
-    <Row>
+    <div className="m-5">
       <Col
-        className="bg-light border"
         md={{
           offset: 2,
           size: 8,
         }}
         sm="12"
       >
-        <MenuData columns={columns} data={data} />
+        <TableData columns={columns} data={data} />
       </Col>
-    </Row>
+    </div>
   );
 }
 

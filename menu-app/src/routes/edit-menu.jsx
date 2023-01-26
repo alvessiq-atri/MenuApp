@@ -9,7 +9,7 @@ export default function EditMenu() {
 
   useEffect(() => {
     (async () => {
-      const result = await axios.get("http://localhost:3010/menu/" + plateId);
+      const result = await axios.get("/menu/" + plateId);
       //   console.log(result.data);
       setData(result.data);
     })();
@@ -17,8 +17,7 @@ export default function EditMenu() {
   //   console.log(data);
   return (
     <div>
-      {/* <h2>{data.ingredients + ""}</h2> */}
-      <h3 className="d-flex justify-content-center">Edit plate:</h3>
+      <h3 className="d-flex justify-content-center m-3">Edit plate:</h3>
       {data ? <EditMenuCard data={data} /> : null}
     </div>
   );

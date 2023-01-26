@@ -3,34 +3,29 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Homepage from "./routes/homepage";
-import NavBar from "./components/navbar";
-import AddPlate from "./routes/add-plate";
-import EditMenu from "./routes/edit-menu";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Homepage />,
-    // errorElement: <ErrorPage/>
-  },
-  {
-    path: "/add-plate",
-    element: <AddPlate />,
-  },
-  {
-    path: "/:plateId",
-    element: <EditMenu />,
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Homepage />,
+//     // errorElement: <ErrorPage/>
+//   },
+//   {
+//     path: "/add-plate",
+//     element: <AddPlate />,
+//   },
+//   {
+//     path: "/:plateId",
+//     element: <EditMenu />,
+//   },
+// ]);
 
 root.render(
   <React.StrictMode>
-    <NavBar />
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
 );
 
