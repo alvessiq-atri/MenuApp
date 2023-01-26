@@ -1,0 +1,2191 @@
+{
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/reportWebVitals.js": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/reportWebVitals.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 24
+        },
+        "end": {
+          "line": 11,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 7
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 6
+        },
+        "end": {
+          "line": 4,
+          "column": 26
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 6
+        },
+        "end": {
+          "line": 5,
+          "column": 26
+        }
+      },
+      "5": {
+        "start": {
+          "line": 6,
+          "column": 6
+        },
+        "end": {
+          "line": 6,
+          "column": 26
+        }
+      },
+      "6": {
+        "start": {
+          "line": 7,
+          "column": 6
+        },
+        "end": {
+          "line": 7,
+          "column": 26
+        }
+      },
+      "7": {
+        "start": {
+          "line": 8,
+          "column": 6
+        },
+        "end": {
+          "line": 8,
+          "column": 27
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 24
+          },
+          "end": {
+            "line": 1,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 39
+          },
+          "end": {
+            "line": 11,
+            "column": 1
+          }
+        },
+        "line": 1
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 30
+          },
+          "end": {
+            "line": 3,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 79
+          },
+          "end": {
+            "line": 9,
+            "column": 5
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 2
+          },
+          "end": {
+            "line": 10,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 2,
+              "column": 2
+            },
+            "end": {
+              "line": 10,
+              "column": 3
+            }
+          },
+          {
+            "start": {
+              "line": 2,
+              "column": 2
+            },
+            "end": {
+              "line": 10,
+              "column": 3
+            }
+          }
+        ],
+        "line": 2
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 6
+          },
+          "end": {
+            "line": 2,
+            "column": 52
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 2,
+              "column": 6
+            },
+            "end": {
+              "line": 2,
+              "column": 17
+            }
+          },
+          {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 52
+            }
+          }
+        ],
+        "line": 2
+      }
+    },
+    "s": {
+      "0": 36,
+      "1": 36,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    "f": {
+      "0": 36,
+      "1": 0
+    },
+    "b": {
+      "0": [
+        0,
+        36
+      ],
+      "1": [
+        36,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f22eab671d18e5726f0017cdd51b1bbcfcf4a633"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/components/table-data.jsx": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/components/table-data.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 10,
+          "column": 6
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 38,
+          "column": 4
+        }
+      },
+      "2": {
+        "start": {
+          "line": 16,
+          "column": 10
+        },
+        "end": {
+          "line": 22,
+          "column": 15
+        }
+      },
+      "3": {
+        "start": {
+          "line": 18,
+          "column": 14
+        },
+        "end": {
+          "line": 20,
+          "column": 19
+        }
+      },
+      "4": {
+        "start": {
+          "line": 27,
+          "column": 10
+        },
+        "end": {
+          "line": 27,
+          "column": 26
+        }
+      },
+      "5": {
+        "start": {
+          "line": 28,
+          "column": 10
+        },
+        "end": {
+          "line": 34,
+          "column": 12
+        }
+      },
+      "6": {
+        "start": {
+          "line": 31,
+          "column": 16
+        },
+        "end": {
+          "line": 31,
+          "column": 79
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "TableData",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 53
+          },
+          "end": {
+            "line": 39,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 26
+          },
+          "end": {
+            "line": 15,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 10
+          },
+          "end": {
+            "line": 22,
+            "column": 15
+          }
+        },
+        "line": 16
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 37
+          },
+          "end": {
+            "line": 17,
+            "column": 38
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 19
+          }
+        },
+        "line": 18
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 26,
+            "column": 18
+          },
+          "end": {
+            "line": 26,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 30
+          },
+          "end": {
+            "line": 35,
+            "column": 9
+          }
+        },
+        "line": 26
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 29
+          },
+          "end": {
+            "line": 30,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 39
+          },
+          "end": {
+            "line": 32,
+            "column": 15
+          }
+        },
+        "line": 30
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 204,
+      "1": 204,
+      "2": 408,
+      "3": 1224,
+      "4": 1292,
+      "5": 1292,
+      "6": 6460
+    },
+    "f": {
+      "0": 204,
+      "1": 408,
+      "2": 1224,
+      "3": 1292,
+      "4": 6460
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "a200070536d651c27169e17b1b7b052f99b662b5"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/components/menu.jsx": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/components/menu.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 16
+        },
+        "end": {
+          "line": 8,
+          "column": 56
+        }
+      },
+      "1": {
+        "start": {
+          "line": 9,
+          "column": 18
+        },
+        "end": {
+          "line": 56,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 15,
+          "column": 29
+        },
+        "end": {
+          "line": 15,
+          "column": 68
+        }
+      },
+      "3": {
+        "start": {
+          "line": 29,
+          "column": 12
+        },
+        "end": {
+          "line": 29,
+          "column": 59
+        }
+      },
+      "4": {
+        "start": {
+          "line": 36,
+          "column": 12
+        },
+        "end": {
+          "line": 44,
+          "column": 14
+        }
+      },
+      "5": {
+        "start": {
+          "line": 58,
+          "column": 26
+        },
+        "end": {
+          "line": 58,
+          "column": 38
+        }
+      },
+      "6": {
+        "start": {
+          "line": 59,
+          "column": 2
+        },
+        "end": {
+          "line": 66,
+          "column": 4
+        }
+      },
+      "7": {
+        "start": {
+          "line": 61,
+          "column": 6
+        },
+        "end": {
+          "line": 64,
+          "column": 10
+        }
+      },
+      "8": {
+        "start": {
+          "line": 62,
+          "column": 23
+        },
+        "end": {
+          "line": 62,
+          "column": 43
+        }
+      },
+      "9": {
+        "start": {
+          "line": 63,
+          "column": 8
+        },
+        "end": {
+          "line": 63,
+          "column": 29
+        }
+      },
+      "10": {
+        "start": {
+          "line": 76,
+          "column": 2
+        },
+        "end": {
+          "line": 88,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Menu",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 9
+          },
+          "end": {
+            "line": 7,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 16
+          },
+          "end": {
+            "line": 89,
+            "column": 1
+          }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 20
+          },
+          "end": {
+            "line": 15,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 29
+          },
+          "end": {
+            "line": 15,
+            "column": 68
+          }
+        },
+        "line": 15
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 28,
+            "column": 16
+          },
+          "end": {
+            "line": 28,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 27
+          },
+          "end": {
+            "line": 30,
+            "column": 11
+          }
+        },
+        "line": 28
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 35,
+            "column": 16
+          },
+          "end": {
+            "line": 35,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 27
+          },
+          "end": {
+            "line": 45,
+            "column": 11
+          }
+        },
+        "line": 35
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 60,
+            "column": 4
+          },
+          "end": {
+            "line": 60,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 61,
+            "column": 6
+          },
+          "end": {
+            "line": 64,
+            "column": 10
+          }
+        },
+        "line": 61
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 61,
+            "column": 7
+          },
+          "end": {
+            "line": 61,
+            "column": 8
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 61,
+            "column": 19
+          },
+          "end": {
+            "line": 64,
+            "column": 7
+          }
+        },
+        "line": 61
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 144,
+      "1": 144,
+      "2": 646,
+      "3": 1292,
+      "4": 1292,
+      "5": 144,
+      "6": 144,
+      "7": 52,
+      "8": 52,
+      "9": 52,
+      "10": 144
+    },
+    "f": {
+      "0": 144,
+      "1": 646,
+      "2": 1292,
+      "3": 1292,
+      "4": 52,
+      "5": 52
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "80866220d9079f4600927237a3ff3aeac2b7c87b"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/routes/homepage.jsx": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/routes/homepage.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Homepage",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 35
+          },
+          "end": {
+            "line": 10,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 52
+    },
+    "f": {
+      "0": 52
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "9fd595fab3271627af24220813457908184b8e07"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/components/navbar.jsx": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/components/navbar.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 18,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "NavBar",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 9
+          },
+          "end": {
+            "line": 5,
+            "column": 15
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 22
+          },
+          "end": {
+            "line": 19,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 72
+    },
+    "f": {
+      "0": 72
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "8084ac5a35f357058152872ba025bd87e304f2e4"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/food-data/sides.js": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/food-data/sides.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 14
+        },
+        "end": {
+          "line": 1,
+          "column": 73
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 36
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "9d44439a4fbc0122d132e9a008c667fd02d8248e"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/food-data/protein.js": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/food-data/protein.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 16
+        },
+        "end": {
+          "line": 9,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 36
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "208487a309c1abc447ab6e34769fe8d9ac02d0a9"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/food-data/greens-veggies.js": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/food-data/greens-veggies.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 16
+        },
+        "end": {
+          "line": 1,
+          "column": 77
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 36
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "a174cecf192e38c8b32ec82040ef4523985657ce"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/components/food-card.jsx": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/components/food-card.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 8
+        },
+        "end": {
+          "line": 19,
+          "column": 17
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "FoodCard",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 60
+          },
+          "end": {
+            "line": 23,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 16
+          },
+          "end": {
+            "line": 11,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 8
+          },
+          "end": {
+            "line": 19,
+            "column": 17
+          }
+        },
+        "line": 12
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 270,
+      "1": 1530
+    },
+    "f": {
+      "0": 270,
+      "1": 1530
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "a67b2d6a3bbc8431f107671649de2b3d9ae9d12d"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/components/food-form.jsx": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/components/food-form.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 26
+        },
+        "end": {
+          "line": 23,
+          "column": 3
+        }
+      },
+      "1": {
+        "start": {
+          "line": 24,
+          "column": 2
+        },
+        "end": {
+          "line": 69,
+          "column": 4
+        }
+      },
+      "2": {
+        "start": {
+          "line": 56,
+          "column": 12
+        },
+        "end": {
+          "line": 61,
+          "column": 14
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "FoodForm",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 24
+          },
+          "end": {
+            "line": 9,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 71
+          },
+          "end": {
+            "line": 70,
+            "column": 1
+          }
+        },
+        "line": 9
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 55,
+            "column": 31
+          },
+          "end": {
+            "line": 55,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 56,
+            "column": 12
+          },
+          "end": {
+            "line": 61,
+            "column": 14
+          }
+        },
+        "line": 56
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 90,
+      "1": 90,
+      "2": 270
+    },
+    "f": {
+      "0": 90,
+      "1": 270
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f93020b91610e9829754dc0ceaacef27ff043846"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/routes/add-plate.jsx": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/routes/add-plate.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 37
+        },
+        "end": {
+          "line": 8,
+          "column": 48
+        }
+      },
+      "1": {
+        "start": {
+          "line": 9,
+          "column": 19
+        },
+        "end": {
+          "line": 9,
+          "column": 32
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 19
+        },
+        "end": {
+          "line": 26,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 12,
+          "column": 4
+        },
+        "end": {
+          "line": 12,
+          "column": 34
+        }
+      },
+      "4": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 25,
+          "column": 5
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 6
+        },
+        "end": {
+          "line": 14,
+          "column": 24
+        }
+      },
+      "6": {
+        "start": {
+          "line": 15,
+          "column": 6
+        },
+        "end": {
+          "line": 15,
+          "column": 31
+        }
+      },
+      "7": {
+        "start": {
+          "line": 18,
+          "column": 6
+        },
+        "end": {
+          "line": 18,
+          "column": 24
+        }
+      },
+      "8": {
+        "start": {
+          "line": 19,
+          "column": 6
+        },
+        "end": {
+          "line": 22,
+          "column": 11
+        }
+      },
+      "9": {
+        "start": {
+          "line": 20,
+          "column": 23
+        },
+        "end": {
+          "line": 20,
+          "column": 55
+        }
+      },
+      "10": {
+        "start": {
+          "line": 21,
+          "column": 8
+        },
+        "end": {
+          "line": 21,
+          "column": 28
+        }
+      },
+      "11": {
+        "start": {
+          "line": 24,
+          "column": 6
+        },
+        "end": {
+          "line": 24,
+          "column": 20
+        }
+      },
+      "12": {
+        "start": {
+          "line": 28,
+          "column": 2
+        },
+        "end": {
+          "line": 37,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "AddPlate",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 24
+          },
+          "end": {
+            "line": 7,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 35
+          },
+          "end": {
+            "line": 38,
+            "column": 1
+          }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 19
+          },
+          "end": {
+            "line": 11,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 29
+          },
+          "end": {
+            "line": 26,
+            "column": 3
+          }
+        },
+        "line": 11
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 19,
+            "column": 7
+          },
+          "end": {
+            "line": 19,
+            "column": 8
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 19
+          },
+          "end": {
+            "line": 22,
+            "column": 7
+          }
+        },
+        "line": 19
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 4
+          },
+          "end": {
+            "line": 25,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 13,
+              "column": 4
+            },
+            "end": {
+              "line": 25,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 13,
+              "column": 4
+            },
+            "end": {
+              "line": 25,
+              "column": 5
+            }
+          }
+        ],
+        "line": 13
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 8
+          },
+          "end": {
+            "line": 13,
+            "column": 67
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 13,
+              "column": 8
+            },
+            "end": {
+              "line": 13,
+              "column": 37
+            }
+          },
+          {
+            "start": {
+              "line": 13,
+              "column": 41
+            },
+            "end": {
+              "line": 13,
+              "column": 67
+            }
+          }
+        ],
+        "line": 13
+      }
+    },
+    "s": {
+      "0": 22,
+      "1": 22,
+      "2": 22,
+      "3": 6,
+      "4": 6,
+      "5": 0,
+      "6": 0,
+      "7": 6,
+      "8": 6,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 22
+    },
+    "f": {
+      "0": 22,
+      "1": 6,
+      "2": 6
+    },
+    "b": {
+      "0": [
+        0,
+        6
+      ],
+      "1": [
+        6,
+        6
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "071eec9809fd00c1db24b072784d2cb8fe067b63"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/components/edit-menu-card.jsx": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/components/edit-menu-card.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 9,
+          "column": 28
+        },
+        "end": {
+          "line": 9,
+          "column": 40
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 19
+        },
+        "end": {
+          "line": 10,
+          "column": 32
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 2
+        },
+        "end": {
+          "line": 18,
+          "column": 13
+        }
+      },
+      "3": {
+        "start": {
+          "line": 15,
+          "column": 4
+        },
+        "end": {
+          "line": 15,
+          "column": 19
+        }
+      },
+      "4": {
+        "start": {
+          "line": 17,
+          "column": 4
+        },
+        "end": {
+          "line": 17,
+          "column": 16
+        }
+      },
+      "5": {
+        "start": {
+          "line": 20,
+          "column": 44
+        },
+        "end": {
+          "line": 24,
+          "column": 4
+        }
+      },
+      "6": {
+        "start": {
+          "line": 26,
+          "column": 24
+        },
+        "end": {
+          "line": 33,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 27,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 44
+        }
+      },
+      "8": {
+        "start": {
+          "line": 28,
+          "column": 4
+        },
+        "end": {
+          "line": 31,
+          "column": 9
+        }
+      },
+      "9": {
+        "start": {
+          "line": 29,
+          "column": 21
+        },
+        "end": {
+          "line": 29,
+          "column": 66
+        }
+      },
+      "10": {
+        "start": {
+          "line": 30,
+          "column": 6
+        },
+        "end": {
+          "line": 30,
+          "column": 26
+        }
+      },
+      "11": {
+        "start": {
+          "line": 32,
+          "column": 4
+        },
+        "end": {
+          "line": 32,
+          "column": 18
+        }
+      },
+      "12": {
+        "start": {
+          "line": 35,
+          "column": 19
+        },
+        "end": {
+          "line": 49,
+          "column": 3
+        }
+      },
+      "13": {
+        "start": {
+          "line": 36,
+          "column": 4
+        },
+        "end": {
+          "line": 36,
+          "column": 34
+        }
+      },
+      "14": {
+        "start": {
+          "line": 37,
+          "column": 4
+        },
+        "end": {
+          "line": 48,
+          "column": 5
+        }
+      },
+      "15": {
+        "start": {
+          "line": 38,
+          "column": 6
+        },
+        "end": {
+          "line": 38,
+          "column": 24
+        }
+      },
+      "16": {
+        "start": {
+          "line": 39,
+          "column": 6
+        },
+        "end": {
+          "line": 39,
+          "column": 31
+        }
+      },
+      "17": {
+        "start": {
+          "line": 42,
+          "column": 6
+        },
+        "end": {
+          "line": 42,
+          "column": 24
+        }
+      },
+      "18": {
+        "start": {
+          "line": 43,
+          "column": 6
+        },
+        "end": {
+          "line": 46,
+          "column": 11
+        }
+      },
+      "19": {
+        "start": {
+          "line": 44,
+          "column": 23
+        },
+        "end": {
+          "line": 44,
+          "column": 65
+        }
+      },
+      "20": {
+        "start": {
+          "line": 45,
+          "column": 8
+        },
+        "end": {
+          "line": 45,
+          "column": 28
+        }
+      },
+      "21": {
+        "start": {
+          "line": 47,
+          "column": 6
+        },
+        "end": {
+          "line": 47,
+          "column": 20
+        }
+      },
+      "22": {
+        "start": {
+          "line": 51,
+          "column": 2
+        },
+        "end": {
+          "line": 63,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "EditMenuCard",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 24
+          },
+          "end": {
+            "line": 8,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 47
+          },
+          "end": {
+            "line": 64,
+            "column": 1
+          }
+        },
+        "line": 8
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 12
+          },
+          "end": {
+            "line": 14,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 18
+          },
+          "end": {
+            "line": 18,
+            "column": 3
+          }
+        },
+        "line": 14
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 26,
+            "column": 24
+          },
+          "end": {
+            "line": 26,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 30
+          },
+          "end": {
+            "line": 33,
+            "column": 3
+          }
+        },
+        "line": 26
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 28,
+            "column": 5
+          },
+          "end": {
+            "line": 28,
+            "column": 6
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 17
+          },
+          "end": {
+            "line": 31,
+            "column": 5
+          }
+        },
+        "line": 28
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 35,
+            "column": 19
+          },
+          "end": {
+            "line": 35,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 29
+          },
+          "end": {
+            "line": 49,
+            "column": 3
+          }
+        },
+        "line": 35
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 43,
+            "column": 7
+          },
+          "end": {
+            "line": 43,
+            "column": 8
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 43,
+            "column": 19
+          },
+          "end": {
+            "line": 46,
+            "column": 7
+          }
+        },
+        "line": 43
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 4
+          },
+          "end": {
+            "line": 48,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 37,
+              "column": 4
+            },
+            "end": {
+              "line": 48,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 37,
+              "column": 4
+            },
+            "end": {
+              "line": 48,
+              "column": 5
+            }
+          }
+        ],
+        "line": 37
+      }
+    },
+    "s": {
+      "0": 68,
+      "1": 68,
+      "2": 68,
+      "3": 27,
+      "4": 27,
+      "5": 68,
+      "6": 68,
+      "7": 5,
+      "8": 5,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 68,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 68
+    },
+    "f": {
+      "0": 68,
+      "1": 27,
+      "2": 5,
+      "3": 5,
+      "4": 0,
+      "5": 0
+    },
+    "b": {
+      "0": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ff332aad4eb7c1924bc653cc0d0037bbacfeb0e9"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/routes/edit-menu.jsx": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/routes/edit-menu.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 20
+        },
+        "end": {
+          "line": 7,
+          "column": 31
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 26
+        },
+        "end": {
+          "line": 8,
+          "column": 38
+        }
+      },
+      "2": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 16
+        }
+      },
+      "3": {
+        "start": {
+          "line": 11,
+          "column": 4
+        },
+        "end": {
+          "line": 15,
+          "column": 9
+        }
+      },
+      "4": {
+        "start": {
+          "line": 12,
+          "column": 21
+        },
+        "end": {
+          "line": 12,
+          "column": 56
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 6
+        },
+        "end": {
+          "line": 14,
+          "column": 27
+        }
+      },
+      "6": {
+        "start": {
+          "line": 18,
+          "column": 2
+        },
+        "end": {
+          "line": 23,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "EditMenu",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 24
+          },
+          "end": {
+            "line": 6,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 35
+          },
+          "end": {
+            "line": 24,
+            "column": 1
+          }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 12
+          },
+          "end": {
+            "line": 10,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 18
+          },
+          "end": {
+            "line": 16,
+            "column": 3
+          }
+        },
+        "line": 10
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 5
+          },
+          "end": {
+            "line": 11,
+            "column": 6
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 17
+          },
+          "end": {
+            "line": 15,
+            "column": 5
+          }
+        },
+        "line": 11
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 7
+          },
+          "end": {
+            "line": 21,
+            "column": 49
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 21,
+              "column": 14
+            },
+            "end": {
+              "line": 21,
+              "column": 42
+            }
+          },
+          {
+            "start": {
+              "line": 21,
+              "column": 45
+            },
+            "end": {
+              "line": 21,
+              "column": 49
+            }
+          }
+        ],
+        "line": 21
+      }
+    },
+    "s": {
+      "0": 34,
+      "1": 34,
+      "2": 34,
+      "3": 20,
+      "4": 20,
+      "5": 10,
+      "6": 34
+    },
+    "f": {
+      "0": 34,
+      "1": 20,
+      "2": 20
+    },
+    "b": {
+      "0": [
+        34,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "872ef052159cdacd8e9765bb5eb636c41367ca8d"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/App.js": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/App.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 11,
+          "column": 15
+        },
+        "end": {
+          "line": 25,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 28,
+          "column": 2
+        },
+        "end": {
+          "line": 33,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "App",
+        "decl": {
+          "start": {
+            "line": 27,
+            "column": 9
+          },
+          "end": {
+            "line": 27,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 15
+          },
+          "end": {
+            "line": 34,
+            "column": 1
+          }
+        },
+        "line": 27
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 36,
+      "1": 72
+    },
+    "f": {
+      "0": 72
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ab2abaedf46ae7603370d8a78d140ab7db455d29"
+  },
+  "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/index.js": {
+    "path": "/Users/leticiasiqueira/Desktop/Leticia Siqueira/Workspace/MenuApp/menu-app/src/index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 13
+        },
+        "end": {
+          "line": 8,
+          "column": 65
+        }
+      },
+      "1": {
+        "start": {
+          "line": 26,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 18
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 36,
+      "1": 36,
+      "2": 36
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "d2112eea95149ca3e1490dcd7373f769ec413d79"
+  }
+}

@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts -r @cypress/instrument-cra start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,8 +37,26 @@
     ]
   },
   "devDependencies": {
+    "@cypress/code-coverage": "^3.10.0",
+    "@cypress/instrument-cra": "^1.4.0",
     "@testing-library/cypress": "^9.0.0",
     "cypress": "^12.4.0"
+  },
+  "nyc": {
+    "exclude": [
+      "src/__mocks__",
+      "src/*.test.js",
+      "src/setupTests.js",
+      "src/reportWebVitals.js",
+      "src/**/*.spec.js",
+      "__test_data__",
+      "src/**/__test_data__",
+      "src/serviceWorker.js",
+      "src/index.js",
+      "__test_utils.js",
+      "reportWebVitals.js",
+      "src/**/__tests__"
+    ]
   },
   "proxy": "http://localhost:3010"
 }

@@ -107,6 +107,19 @@
         "broccoli"
       ],
       "id": 10
+    },
+    {
+      "name": "Gringo",
+      "vovofav": "yes",
+      "ingredients": [
+        "chicken breast",
+        "rice",
+        "mashed potato",
+        "spring mix",
+        "carrots",
+        "broccoli"
+      ],
+      "id": 11
     }
   ],
   "protein": [

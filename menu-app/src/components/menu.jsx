@@ -5,7 +5,7 @@ import axios from "axios";
 import TableData from "./table-data";
 
 function Menu() {
-  const style = { width: "200px", whiteSpace: "normal" };
+  const style = { width: "150px", whiteSpace: "normal" };
   const columns = [
     {
       Header: "MENU",
