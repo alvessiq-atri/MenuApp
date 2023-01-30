@@ -17,6 +17,7 @@ const router = createBrowserRouter([
   {
     path: "/add-plate",
     element: <AddPlate />,
+    // errorElement: <ErrorPage/>
   },
   {
     path: "/:plateId",

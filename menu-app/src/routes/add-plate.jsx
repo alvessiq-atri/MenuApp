@@ -27,7 +27,7 @@ export default function AddPlate() {
 
   return (
     <>
-      <h3 className="d-flex justify-content-center m-3">Add plate:</h3>
+      <h3 className="d-flex justify-content-center m-3">ADD PLATE</h3>
       <FoodForm
         onSubmit={onSubmit}
         register={register}

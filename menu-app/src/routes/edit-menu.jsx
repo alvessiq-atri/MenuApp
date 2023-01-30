@@ -17,7 +17,7 @@ export default function EditMenu() {
   //   console.log(data);
   return (
     <div>
-      <h3 className="d-flex justify-content-center m-3">Edit plate:</h3>
+      <h3 className="d-flex justify-content-center m-3">EDIT PLATE</h3>
       {data ? <EditMenuCard data={data} /> : null}
     </div>
   );
